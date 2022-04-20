@@ -1,0 +1,5 @@
+<view class="container">
+    <block wx:for="{{todoList}}" wx:key="id">
+        <list-item item="{{item}}" bindFinished="handleFinished"/>
+    </block>
+</view>

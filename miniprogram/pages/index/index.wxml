@@ -1,0 +1,7 @@
+<view class="container">
+    <view class="title">TodoList</view>
+    <view class="panel">
+        <input-container bindAdd="handleAdd"/>
+        <list todo-list="{{todoList}}"  bindFinished="handleFinished"/>
+    </view>
+</view>

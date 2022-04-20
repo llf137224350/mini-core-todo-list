@@ -1,0 +1,4 @@
+<view class="container">
+    <input type="text" class="input" value="{{title}}" placeholder="请输入待办" bindinput="handleInput"/>
+    <button type="primary" class="button" bindtap="handleClick">添加</button>
+</view>

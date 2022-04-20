@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "mini-corre",
+  "usingComponents": {
+    "input-container": "./components/input_container/input_container",
+    "list": "./components/list/list"
+  }
+}

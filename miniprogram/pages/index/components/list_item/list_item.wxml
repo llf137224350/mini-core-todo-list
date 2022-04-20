@@ -1,0 +1,7 @@
+<view class="container">
+    <text class="text  {{item.finished ? 'line-through' : ''}}">{{item.title}}</text>
+    <checkbox-group bindchange="handleChange">
+        <checkbox class="finished" checked="{{item.finished}}" value="1"/>
+    </checkbox-group>
+    <icon type="clear" bindtap="handleDelete"/>
+</view>

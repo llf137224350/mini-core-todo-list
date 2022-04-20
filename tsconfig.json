@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "rootDirs": ["./miniprogram"],
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "target": "ES5",
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "noImplicitThis": false,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "strict": true,
+    "removeComments": true,
+    "pretty": true,
+    "strictPropertyInitialization": true,
+    "skipLibCheck": true,
+    "lib": [
+	    "ES2020",
+	    "dom"
+    ],
+    "typeRoots": ["./typings"]
+  },
+  "include": ["./miniprogram/**/*.ts"],
+  "exclude": ["node_modules","typings"]
+}
