@@ -8,9 +8,10 @@
 
 # 如何快速创建组件或者页面
 > 首先终端工具进入需要创建页面或者组件的目录
+> mini-core-cli支持远不止简单的创建页面和组件，更多功能期待您的探索
 
-- 创建页面：[wx-page-template](https://www.npmjs.com/package/wx-page-template)
-- 创建组件：[wx-component-template](https://www.npmjs.com/package/wx-component-template)
+- mini-core-cli脚手架：[mini-core-cli脚手架](https://www.npmjs.com/package/mini-core-cli)
+
 
 
 # 装饰器和原生对应关系
